@@ -2,5 +2,5 @@
 v = float(input('Digite medida: ')) 
 cm = v * 100
 mm = v *1000
-print('A medida é {}cm \n A medida é {}mm'.format(cm, mm))
+print('A medida é {:.0f}cm \n A medida é {:.0f}mm'.format(cm, mm))
 
