@@ -6,4 +6,10 @@
 #centena:8
 #milhar:1
 
-n = input('Digite um valor: ')
+numero = (input('Digite um valor:'))
+dividido = numero
+print('Ánalisando o numero {}'.format(numero))
+print('Unidade:{}'.format(dividido[3]))
+print('Dezena: {}'.format(dividido[2]))
+print('Centena:{}'.format(dividido[1]))
+print('Milhar: {}'.format(dividido[0]))
