@@ -1,15 +1,17 @@
 a = int(input('Digite primeiro valor: '))
 b = int(input('Digite segundo valor: '))
 c = int(input('Digite terceiro valor: '))
+#maior
 menor = a
 if b<a and b<c:
     menor = b
 if c<a and c<b:
     menor = c
+#maior
 maior = a
-if b<a and b<c:
+if b>a and b>c:
     maior = b
-if c<a and c<b:
+if c>a and c>b:
     maior = c
 print('O menor valor digitado foi {}'.format(menor))
 print('O maior valor foi {}'.format(maior))
