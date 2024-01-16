@@ -5,9 +5,9 @@ casa = float(input('Qual o valor da casa? R$'))
 salario = float(input('Qual o salario do comprador? R$'))
 ano = int(input('Em quantos anos deseja pagar? '))
 prestacao = casa / ano
-if prestacao > (salario *30//100):
+if prestacao > salario + (salario *30//100):
     print('Seu emprestino nao foi aprovado!')
-elif prestacao <= (salario *30//100):
+elif prestacao <= salario + (salario *30//100):
     print('Seu emprestimo foi aprovado!')
 else:
     total = prestacao + salario

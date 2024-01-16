@@ -1,0 +1,1 @@
+"""Çrie um programa que faca o computador jogar Jokenpo com voce"""
