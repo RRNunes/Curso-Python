@@ -27,3 +27,4 @@ elif opcao == 4:
 else:
     print('Opcao invalida!')
 print('Sua compra de R${} tem o valor final de R${}'.format(preco, total))
+
