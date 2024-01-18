@@ -3,3 +3,6 @@
 - a vista no cartao: 5% de desconto
 - am ate 2x no cartao: preco normal
 - 3x ou mais no cartao 20% de juros"""
+
+valor = float(input('Digite valor: R$ '))
+dinheirooucheque = 
