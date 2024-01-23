@@ -1,1 +1,4 @@
 """""FACE UM PROGRAMA QUE LEIA UM NU ERO INTEIRO E DIGA SE ELE É OU NAO UM NUMERO PRIMO."""
+
+print('Digite um numero: ')
+
