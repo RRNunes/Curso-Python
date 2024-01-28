@@ -13,7 +13,7 @@ for p in range(1, 5):
     nome = str(input('Digite nome: ')).strip()
     idade = int(input('Digite idade: '))
     sexo = str(input('Digite sexo F/M : ')).strip()
-    somaidade += 0
+    somaidade += idade
     if p == 1 and sexo in 'Mm':
         maioridadehomem = idade
         homemvelho = nome
@@ -24,6 +24,6 @@ for p in range(1, 5):
         totalmulher += 1
     mediaidade = somaidade / 4
 print('A maior idade do grupo é {} anos'.format(mediaidade))
-print('O mais velho é {} '.format(homemvelho))
-print('{}tem menos de 20 anos'.format(totalmulher))
+print('O mais velho é {} e tem {}'.format(homemvelho, maioridadehomem))
+print('{} tem menos de 20 anos'.format(totalmulher))
 
