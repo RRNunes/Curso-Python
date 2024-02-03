@@ -3,12 +3,12 @@ ENTRE TODOS OS VALORES E QUAL FOI O MAIOR E MENOSR VALORE LIDOS. O PROGRAMA DEEV
 CONTINUAR A DIGITAR VALORES"""
 
 continuar = 'S'
-soma = quant = media = maior = menor = 0
+soma = cont = media = maior = menor = 0
 while continuar in 'Ss':
     num = int(input('Digite um numero: '))
     soma += num
-    quant += 1
-    if quant == 1:
+    cont += 1
+    if cont == 1:
         maior = menor = num
     else:
         if num > maior:
@@ -16,8 +16,8 @@ while continuar in 'Ss':
         if num < menor:
             menor = num
     continuar = str(input('Quer continuar[S/N]? ')).upper().strip()
-media = soma / quant
-print('Voce digitou {} numeros, a media entre eles e {}'.format(quant, media))
+media = soma / cont
+print('Voce digitou {} numeros, a media entre eles e {}'.format(cont, media))
 print('O valor foi {} e o menor foi {}'.format(maior, menor))
 
 
