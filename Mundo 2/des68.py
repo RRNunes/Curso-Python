@@ -26,7 +26,7 @@ while True:
             vezes += 1
         else:
             print('Voce PERDEU!')
-        break
+            break
     elif pi == 'I':
         if total % 2 == 1:
             print('Voce VENCEU!')
