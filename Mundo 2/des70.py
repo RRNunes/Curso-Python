@@ -4,7 +4,7 @@ A) QUAL E O TOTAL GASTO NA COMPRA
 B) QUANTOS PRODUTOS CUSTAM MAIS DE R$1000
 C) QUAL 'E O PRODUTO MAIS BARATOI"""
 
-print('====== CADASTRO DE COMPA ======')
+print('====== CADASTRO DE COMPRA ======')
 total = totalmaior = menor = cont = 0
 barato = ' '
 while True:
