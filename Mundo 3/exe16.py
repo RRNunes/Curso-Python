@@ -11,7 +11,7 @@ lanche = ('hamburguer', 'suco', 'pizza', 'pudim')
 """"mostra a contagem"""
 #for pos, comida in enumerate(lanche):
     
-for comida in lanche
+for comida in lanche:
     print(f'Eu vou comer {comida}')
 print('Comi pra caramba')
 
