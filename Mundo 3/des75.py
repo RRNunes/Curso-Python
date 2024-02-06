@@ -11,7 +11,7 @@ numero = (int(input('Digite um numero: ')),
           int(input('Digite mais um numero: ')),
           int(input('Digite outro numero:')))
 print(f'Voce digitou os valores {numero}')
-print(f'O valor 9 apareceu{numero.count(9)} vezes')
+print(f'O valor 9 apareceu {numero.count(9)} vezes')
 if 3 in numero:
     print(f'O valor 3 apareceu na {numero.index(3)+1}a posicao')
 else:
