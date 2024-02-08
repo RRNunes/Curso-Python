@@ -9,5 +9,8 @@ galera.append(teste[:])
 print(galera)
 """
 
-galera = [['Joao', 19], ['Ana', 33], ['Joaquin', 13], ['Maria', 45]]
-print(galera[2][1])
+#galera = [['Joao', 19], ['Ana', 33], ['Joaquin', 13], ['Maria', 45]]
+#for p in galera:
+
+#    print(galera[2][1])
+
