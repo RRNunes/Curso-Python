@@ -7,9 +7,9 @@ C) O MAIOR VALOR DA SEGUNDA LINHA.
 
 matriz = [[0, 0, 0], [0, 0, ], [0, 0, 0]]
 spar = mai = scol = 0
-for l in range(0,3):
+for l in range(0, 3):
     for c in range(0, 3):
-        matriz[l[c]] = int(input(f'Digite um valor para [{1}, {c}]: '))
+        matriz[l][c] = int(input(f'Digite um valor para [{l}, {c}]: '))
 print('-=' * 3)
 for l in range(0, 3):
     for c in range(0, 3):
@@ -20,12 +20,12 @@ for l in range(0, 3):
 print('-=' * 30)
 print(f'A soma dos valores pares é {spar}', end='')
 for l in range(0, 3):
-    scol += matriz[l][c]
+    scol += matriz[l][2]
 print(f'A soma dos valores da terceira coluna é {scol}.')
 for c in range(0, 3):
     if c == 0:
-        mai = matriz[l][c]
-    elif matriz[l][c] > mai:
+        mai = matriz[1][c]
+    elif matriz[1][c] > mai:
         mai = matriz[1][c]
 print(f'O maior valor da segunda linha é {mai}.')
 
