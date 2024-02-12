@@ -5,7 +5,7 @@ B) A SOMA DOS VALORES DA TERCEIRA COLUNA
 C) O MAIOR VALOR DA SEGUNDA LINHA.
 """
 
-matriz = [[0, 0, 0], [0, 0, ], [0, 0, 0]]
+matriz = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
 spar = mai = scol = 0
 for l in range(0, 3):
     for c in range(0, 3):
