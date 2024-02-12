@@ -5,3 +5,13 @@
 0     1
 
 NO FINAL, MOSTE A MATRIZ NA TELA, COM A FORMATACAO CORRETA"""
+
+matriz = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+for l in range(0, 3):
+    for c in range(0, 3):
+        matriz[1][c] = int(input(f'Digite um valor para [{l}, {c}]: '))
+print('-=' * 30)
+for l in range(0, 3):
+    for c in range(0, 3):
+        print(f'[{matriz[l][c]}]', end='')
+    print()
