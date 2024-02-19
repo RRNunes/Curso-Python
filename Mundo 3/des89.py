@@ -23,7 +23,7 @@ while True:
     if opc == 999:
         print('FINALIZANDO...')
         break
-        if opc <= len(ficha) - 1 :
-            print(f'Notas de {ficha[opc][0]} sao {fichas[opc][1]}')
+    if opc <= len(ficha) - 1 :
+        print(f'Notas de {ficha[opc][0]} sao {fichas[opc][1]}')
 print('<<< VOLTE SEMPRE >>>')
     
