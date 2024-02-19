@@ -23,8 +23,8 @@ while tot <= quant:
     jogos.append(lista[:])
     lista.clear()
     tot += 1
-print('-=' * 3, f'SORTEANDO... {quant} JOGOS ','-=' * 30)
+print('-=' * 3, f'SORTEANDO... {quant} JOGOS ','-=' * 3)
 for i, l in enumerate(jogos):
-    print(f'Jogos {i + 1}: {1}')
+    print(f'Jogos {i + 1}: {l}')
     sleep(1)
-print('-=' * 5, 'BOA SORTE! > ', '-=' * 5)
+print('-=' * 5, '< BOA SORTE! > ', '-=' * 5)
