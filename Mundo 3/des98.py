@@ -7,13 +7,14 @@ C) UMA CONTAGEM PERSONALIZADA.
 
 from time import sleep
 def contador(i, f, p):
+    if p < 0:
+        p *= -1
+    if p == 0:
+        p = 1
     print(f'Contagem de {i} ate {f} de {p} em {p}')
     sleep(0.5)
 
-    if p < 0:
-        p*= -1
-    if p == 0:
-        p = 1 
+
     if i < f:
         cont = i
         while cont <= f:
