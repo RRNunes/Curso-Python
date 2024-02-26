@@ -20,7 +20,10 @@ Restricao: nao pode utilizar 'for' ou 'while'. Apenas funcoes.
 
 # Escreva aqui seu codigo
 def factorial(n: int):
-    return n
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
 
 
 if __name__ == '__main__':

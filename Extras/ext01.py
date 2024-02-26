@@ -10,7 +10,11 @@ Nao pode usar sort()
 
 
 # Escreva seu codigo aqui
-def my_sort(input: list):
+def my_sort(input):
+    for i in range(len(input)): 
+      for cont in range(0, len(input)-i-1):
+         if input[cont] > input[cont+1]:
+            input[cont], input[cont+1] = input[cont+1], input[cont]
     return input
 
 
