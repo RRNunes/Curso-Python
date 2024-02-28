@@ -8,6 +8,9 @@ Adapte o codigo do desafio 107, criando uma funcao adicional chamada moeda() que
 EX 109:
 MODIFIQUE AS FUNCOES QUE FORAM CRIADAS NO DESAFIO 107 PARA QUE ELAS ACEITEM UM PARAMETRO A MAIS, INFORMANDO SE O VALOR RETORNADO PARA ELAS VAI SER OU NAO FORMATADAOS PELA FUNCAO MOEDA(), DESENVOLVIDA NO DESAFIO 108.
 
+EX 110:
+ADICIONE AO MEDULO MOEDA.PY CRIANDO NOS DESafios anteriores, uma funcao chamada resumo() QUE MOSTRE NA TELA ALGUMAS INFORMACOES GERADAS PELAS FUNCOES QUE JA TEMOS NO MODULO CRIADO ATE AQUI.
+
 """
 
 def aumentar(preco, taxa = 0, formato=False):
@@ -32,4 +35,16 @@ def metade(preco = 0, formato=False):
 
 def moeda(preco = 0, moeda ='R$'):
     return f'{moeda}{preco:>8.2f}'.replace('.', ',')
+
+
+def resumo(preco=0, taxaa=10, taxar=5):
+    print('-' * 30)
+    print('RESUMO DO VALOR'.center(30))
+    print('-' * 30)
+    print(f'Preco analizado: \t{moeda(preco)}')
+    print(f'Dobro do preco: \t{dobro(preco, True)}')
+    print(f'Metade do preco: \t{metade(preco, True)}')
+    print(f'Com {taxaa}% de aumento: \t{aumentar(preco, taxaa, True)}')
+    print(f'{taxar}% de reducao: \t\t{diminuir(preco, taxar, True)}')
+    print('-' * 30)
 
