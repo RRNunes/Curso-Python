@@ -1,7 +1,15 @@
 from interface import *
 from time import sleep
+from lib import *
 
+arq = 'Cursoem video.txt'
 
+if arquivoExiste(arq):
+    print('Arquivo encontrado')
+else:
+    print('Arquivo nao existe')
+
+    
 while True:
     resposta = menu(['Ver pessoas cadastradas', 'Cadastrar nova Pessoa', 'Sair do Sistema'])
     if resposta == 1:
